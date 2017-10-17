@@ -1,5 +1,7 @@
 #!/bin/bash
 # https://unix.stackexchange.com/questions/204335/how-can-i-copy-a-file-in-a-bash-script-and-rename-it-while-copying-and-place-it
+# Finds all Java files in given directory and assumes that they are ISO-8859-1 encoded
+# and converts them to UTF-8 encoding
 
 src="$1"
 
